@@ -31,5 +31,9 @@ async function startServer() {
         console.error('Error starting the server:', error);
     }
 }
-
+function TESTING()
+{
+    return 0;
+}
+TESTING();
 startServer();
